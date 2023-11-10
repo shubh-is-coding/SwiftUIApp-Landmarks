@@ -14,8 +14,8 @@ struct ContentView: View {
             MapView()
                 .frame(height: 450)
             ImageContent()
-                .offset(y: -230)
-                .padding(.bottom, -230)
+                .offset(y: -240)
+                .padding(.bottom, -240)
             
         VStack(alignment: .leading){
             Text("Sardar Vallabhbhai Patel")
