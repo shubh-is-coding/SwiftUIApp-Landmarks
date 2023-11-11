@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  LandmarkDetail.swift
 //  SwiftUIApp
 //
-//  Created by Shubham Khunte on 09/11/23.
+//  Created by Shubham Khunte on 11/11/23.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct LandmarkDetail: View {
     var body: some View {
         VStack{
             
@@ -43,10 +43,9 @@ struct ContentView: View {
                 .foregroundColor(.gray)
         }.padding()
         }
-        
     }
 }
 
 #Preview {
-    ContentView()
+    LandmarkDetail()
 }
